@@ -40,6 +40,7 @@ public class AssignmentTask extends AbstractReport implements FileConstants
 		testInfo("Load the URL");
 		CommonUtils.loadUrl();
 		assertEquals(HomePage.getCssValueOfAlertButton(), "rgba(198, 15, 19, 1)");
+		
 		assertEquals(HomePage.getCssValueOfInfoButton(), "rgba(43, 166, 203, 1)");
 		assertEquals(HomePage.getCssValueOfSuccessButton(), "rgba(93, 164, 35, 1)");
 	}
