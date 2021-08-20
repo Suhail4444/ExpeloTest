@@ -27,5 +27,7 @@ public interface ObjectConstants
 	String headers_Columns			= "Lorem,Ipsum,Dolor,Sit,Amet,Diceret,Action";
 	
 	String FOOTER_POWERED_BY		= "FOOTER_POWERED_BY";
+	
+	String Table_Data_Values       = "Iuvaret,Apeirian,Adipisci,Definiebas,Consequuntur,Phaedrum";
 
 }
